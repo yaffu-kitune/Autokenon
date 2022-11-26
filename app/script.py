@@ -21,7 +21,7 @@ def start(login, ps, week):
     chrome_options = webdriver.ChromeOptions()
 
     driver = webdriver.Remote(
-    command_executor='https://selenium.yaffugit.net/wd/hub',
+    command_executor='https://selenium-stand-prod-kenon-sap6d3.mo2.mogenius.io/wd/hub',
     options=chrome_options
     )
 
