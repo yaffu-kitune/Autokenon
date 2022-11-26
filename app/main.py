@@ -6,17 +6,12 @@ app = FastAPI()
 class Item(BaseModel):
     number: str
     pwd: str
+    switch : str
 
 
 @app.post("/week")
 def update_item(item: Item):
     num = item.number
     ps = item.pwd
-    script.start(num, ps)
-
-@app.post("/rest")
-def update_item(item: Item):
-    num = item.number
-    ps = item.pwd
-    script.start1(num, ps)
-    
+    week = item.switch
+    script.start(num, ps, week)
