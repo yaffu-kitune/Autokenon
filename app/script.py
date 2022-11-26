@@ -27,7 +27,7 @@ l = (
 
 def start(login, ps):
     driver = webdriver.Remote(
-        command_executor='http://locahost:4444/wd/hub',
+        command_executor='https://selenium.yaffugit.net/wd/hub',
         options=options,
     )
 
