@@ -27,7 +27,7 @@ l = (
 
 def start(login, ps):
     driver = webdriver.Remote(
-        command_executor='http://selenium:4444/wd/hub',
+        command_executor='http://locahost:4444/wd/hub',
         options=options,
     )
 
@@ -64,7 +64,7 @@ def start(login, ps):
 
 def start1(login, ps):
     driver = webdriver.Remote(
-        command_executor='http://selenium:4444/wd/hub',
+        command_executor='http://localhost:4444/wd/hub',
         options=options,
     )
 
