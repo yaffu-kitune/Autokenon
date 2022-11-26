@@ -26,9 +26,9 @@ def start(login, ps, week):
     )
 
 
-    if week == True:
+    if week == "True":
         switch = ".css-1dbjc4n:nth-child(4) > .css-1dbjc4n > .css-1dbjc4n > .css-1dbjc4n:nth-child(1) > .css-901oao"
-    elif week == False:
+    elif week == "False":
         switch = ".css-1dbjc4n:nth-child(1) > .css-1dbjc4n > .css-1dbjc4n:nth-child(1) > .css-1dbjc4n:nth-child(1) > .css-1dbjc4n:nth-child(1) > .css-1dbjc4n:nth-child(1) > .css-1dbjc4n > .css-1dbjc4n > .css-901oao"
 
 
